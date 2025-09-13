@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+ 
+ 
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#012340;
+}
+ 
+ 
+.container{
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+    
+}
+  
+header{
+    background-color: rgb(75, 177, 172);
+    color: blanchedalmond;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+
+    /* border: solid black; */
+}
+ 
+ 
+header .topo{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    /* border: solid black; */
+}
+ 
+ 
+header h1{
+    font-size: 18px;
+    margin: 0;
+}
+
+header .container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+ 
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* border: solid black; */
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ 
+ 
+nav a{
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255,.15);
+    color: #012340;
+    text-decoration: none;
+}
+nav a:hover {
+    background: rgba(255, 255, 255,.25);
+}
+
+section{
+    padding: 20px 0;
+    color: white;
+}
+.caixa{
+    background: rgb(75, 177, 172);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 16px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    border-bottom:1px solid red;
+}
+th{
+    background: #f3f4f6;
+    font-weight: 600;
+}
+ 
+.form{
+    display:grid;
+}
+.form-grid2 {
+    display:grid;
+}
+ 
+label{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border:  1px solid pink;
+    border-radius: 20px;
+    color: black;
+}
+button, .btn{
+    display: inline-block;
+    padding: 10px 14px;
+    border: 0;
+    background: #012340;
+    color: #025959;
+    cursor: pointer;
+    color: #04D939;
+    border-radius: 5px;
+    text-decoration: none;
+}
+ 
+footer{
+    color: #555;
+    padding: 24px 0;
+}
+ 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <section>
+                <div class="form-grid2">
+                    <div>
+                        <label for="txtEmail">Email *</label>
+                        <input id="txtEmail" type="email" placeholder="nome@senac.br">
+                    </div>
+                    <div>
+                        <label for="txtSenha">Senha *</label>
+                        <input id="txtSenha" type="password" required minlength="6" maxlength="8">
+                    </div>
+                    <div>
+                        <label for="txtConfirmarSenha">Senha *</label>
+                        <input id="txtConfirmarSenha" type="password" required minlength="6" maxlength="8">
+                    </div>
+                    <div>
+                        <label for="txtDate">Data de aniversario *</label>
+                        <input id="txtDate" type="date" required>
+                    </div>
+                    <div>
+                        <label for="txtTelefone">Telefone *</label>
+                        <input id="txtTelefone" type="tel" required>
+                    </div>
+                    <div>
+                        <label for="txtEstado">Estado *</label>
+                        <select name="" id="">
+                            <option value="">Selecione</option>
+                            <option value="br">BR</option>
+                            <option value="rj">RJ</option>
+                            <option value="es">ES</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Preferencias *</label>
+                        <label for=""><input type="radio" name="" value="">Aceitar termos</label>
+                        <label for=""><input type="radio" name="" value="">Receber Notificações</label>
+                    </div>
+
+                    <div>
+                        <label>Preferencias *</label>
+                        <label for=""><input type="checkbox" name="genero" value="M">Masculino</label>
+                        <label for=""><input type="checkbox" name="genero" value="F">Feminino</label>
+                        <label for=""><input type="checkbox" name="genero" value="O">Outros</label>
+                    </div>
+
+                    <p>
+                        <button type="submit">Salvar</button>
+                        <button class="btn">Limpar Campos</button>
+                        <button>voltar</button>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
